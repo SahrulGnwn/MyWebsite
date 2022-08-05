@@ -18,7 +18,7 @@
 <!-- Default box -->
 <div class="card">
   <div class="card-header">
-    <h3 class="card-title"><span class="badge badge-primary">GET</span> [ /api/users ] User Details</h3>
+    <h3 class="card-title"><span class="badge badge-primary">GET</span> [ /api/user ] User Token Details</h3>
     <div class="card-tools">
       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
         <i class="fas fa-minus"></i>
