@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="card-body">
-    <kbd>{{env("APP_URL")}}/api/users</kbd>
+    <kbd>{{env("APP_URL")}}/api/user</kbd>
     <br>
     <br>
     <p>Get users information</p>

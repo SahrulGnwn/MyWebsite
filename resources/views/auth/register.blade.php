@@ -35,7 +35,7 @@
                         <button type="submit" class="btn btn-primary btn-block">Register</button>
                     </div>       
                 </form>
-                <p class="text-center"><a href="/porto/LoginRegis/login">Have a account?</a></p>
+                <p class="text-center"><a href="{{ route('login') }}">Have a account?</a></p>
             </div>
         </div>
         <br>

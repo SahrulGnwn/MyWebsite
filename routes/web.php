@@ -43,3 +43,9 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth'], function () {
         Route::get('/covid', [ExternalAPIController::class, 'covid'])->name('external.api.covid');
     });
 });
+
+Route::domain('store.sahrulgnwn.my.id')->group(function () {
+    Route::get('/', function () {
+        return view('index');
+    })->name('home');
+});
