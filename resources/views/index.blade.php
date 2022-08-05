@@ -18,12 +18,12 @@
 	            <img src="https://image.winudf.com/v2/image/Y29tLmJhbGVmb290Lk1vbmtleURMdWZmeVdhbGxwYXBlcl9zY3JlZW5fMF8xNTI0NTE5MTEwXzAyOA/screen-0.jpg?h=500&fakeurl=1&type=.jpg" alt="Abd Rozak Chaidir" width="200px" class="rounded-circle img-thumbnail">
 	            <h1 class="display-4">Sahrul Gunawan</h1>
 	            <p class="lead">Programmer | Back-End Developer</p>
-	            {{-- <div class="row text-center justify-content-center">
-	            	<div class="col-md-2 pb-2"><a href="https://www.facebook.com/Abdie.DawaiPagi/" target="_blank" class="text-black"><i class="bi bi-facebook"></i> Facebook</a></div>
-	            	<div class="col-md-2 pb-2"><a href="https://www.linkedin.com/in/abd-rozak-chaidir-697297a2/" target="_blank" class="text-black"><i class="bi bi-linkedin"></i> Linkedin</a></div>
-	            	<div class="col-md-2 pb-2"><a href="https://gitlab.com/dawaipagi" target="_blank" class="text-black"><i class="bi bi-github"></i> GitLab</a></div>
-	            	<div class="col-md-2 pb-2"><a href="mailto:abdie.dawaipagi@gmail.com" target="_blank" class="text-black"><i class="bi bi-envelope"></i> Email</a></div>
-	            </div> --}}
+	            <div class="row text-center justify-content-center">
+	            	<div class="col-md-2 pb-2"><a href="https://www.facebook.com/sahruldxd/" target="_blank" class="text-black"><i class="bi bi-facebook"></i> Facebook</a></div>
+	            	<div class="col-md-2 pb-2"><a href="https://www.linkedin.com/in/sahrul-gunawan-6404191b8/" target="_blank" class="text-black"><i class="bi bi-linkedin"></i> Linkedin</a></div>
+	            	<div class="col-md-2 pb-2"><a href="https://github.com/SahrulGnwn" target="_blank" class="text-black"><i class="bi bi-github"></i> Github</a></div>
+	            	<div class="col-md-2 pb-2"><a href="mailto:sahrulgunawan385@gmail.com" target="_blank" class="text-black"><i class="bi bi-envelope"></i> Email</a></div>
+	            </div>
 	        </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#fff" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,69.3C274.3,75,343,117,411,144C480,171,549,181,617,170.7C685.7,160,754,128,823,106.7C891.4,85,960,75,1029,69.3C1097.1,64,1166,64,1234,80C1302.9,96,1371,128,1406,144L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
@@ -36,7 +36,7 @@
                 <div class="row text-center mb-3">
                     <div class="col">
                         <h2>About Me</h2>
-                        <p class="fs-5">Junior Back End Developer dengan pengalaman 1 tahun dalam membuat Website Digital Market Pribadi menggunakan PHP dan framework Laravel</p>
+                        <p class="fs-5">Junior Back End Developer with PHP Laravel and Python Django</p>
                     </div>
                 </div>
                 <div class="row text-center mb-2 mt-5">
