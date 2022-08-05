@@ -2,8 +2,8 @@ name: Website Deployment
 on: [push]
 jobs:
 
-  build:
-    name: Build
+  deploy:
+    name: Website Deploy
     runs-on: ubuntu-latest
     steps:
     - name: Deploy Website
