@@ -49,80 +49,13 @@
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">REST API</button>
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">PHP</button>
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">Laravel</button>
+                    <button type="button" class="btn btn-outline-primary fw-bold mb-2">Python</button>
+                    <button type="button" class="btn btn-outline-primary fw-bold mb-2">Django</button>
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">Node JS</button>
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">MySQL</button>
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">PostgreSQL</button>
                     <button type="button" class="btn btn-outline-primary fw-bold mb-2">Git</button>
                 </div>
-                {{-- <div class="row text-center mb-2 mt-5">
-                    <div class="col">
-                        <h3>Experience</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-around text-center">
-                	<div class="timeline">
-						<div class="timeline-row">
-							<div class="timeline-time">2021 - Now</div>
-							<div class="timeline-content">
-								<h3>PT. Medlinx Asia Teknologi</h3>
-								<h5>Assistant Manager IT</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2019 - 2020</div>
-							<div class="timeline-dot green-one-bg"></div>
-							<div class="timeline-content green-one">
-								<h3>PT. Medlinx Asia Teknologi</h3>
-								<h5>Tech Lead</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2019 - 2019</div>
-							<div class="timeline-content">
-								<h3>PT. Medlinx Asia Teknologi</h3>
-								<h5>System Analist</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2018 - 2019</div>
-							<div class="timeline-dot green-one-bg"></div>
-							<div class="timeline-content green-one">
-								<h3>PT. Medlinx Asia Teknologi</h3>
-								<h5>Developer</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2016 - 2018</div>
-							<div class="timeline-content">
-								<h3>PT. Ide Bertiga Satu Visi (NuMedia)</h3>
-								<h5>Head Programmer</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2013 - 2016</div>
-							<div class="timeline-dot green-one-bg"></div>
-							<div class="timeline-content green-one">
-								<h3>Quantum Business International</h3>
-								<h5>Tenaga Pendukung Teknologi Informasi dan Pengelolaan Database untuk Ikatan Alumni ITB</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2008 - 2013</div>
-							<div class="timeline-content">
-								<h3>Self Employed</h3>
-								<h5>Warnet Consultant di Depok dan Jakarta</h5>
-							</div>
-						</div>
-						<div class="timeline-row">
-							<div class="timeline-time">2005 - 2006</div>
-							<div class="timeline-dot green-one-bg"></div>
-							<div class="timeline-content green-one">
-								<h3>Peremba Construction Sdn Bhd</h3>
-								<h5>Staff dan IT Support</h5>
-							</div>
-						</div>
-					</div>
-                </div> --}}
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#e2edff" fill-opacity="1" d="M0,288L34.3,272C68.6,256,137,224,206,202.7C274.3,181,343,171,411,176C480,181,549,203,617,218.7C685.7,235,754,245,823,250.7C891.4,256,960,256,1029,245.3C1097.1,235,1166,213,1234,213.3C1302.9,213,1371,235,1406,245.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
