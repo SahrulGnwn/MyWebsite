@@ -20,7 +20,7 @@ use App\Http\Controllers\ExternalAPIController;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('home');
 
 Route::group(['prefix' => 'auth'], function () {
     Route::get('/login', [LoginController::class, 'index'])->middleware('guest')->name('login');;
