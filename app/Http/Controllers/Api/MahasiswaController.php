@@ -20,13 +20,10 @@ class MahasiswaController extends Controller
     public function show($id)
     {
         $mahasiswa = Mahasiswa::findOrFail($id);
-        if ($mahasiswa) {
-            $data = [
-                'status' => 'success',
-                'data' => $mahasiswa
-            ];
-            return response()->json($data);
-        }
-        return response()->json(['message' => "Transaksi Tidak Ada"]);
+        $data = [
+            'status' => 'success',
+            'data' => $mahasiswa
+        ];
+        return response()->json($data);
     }
 }
