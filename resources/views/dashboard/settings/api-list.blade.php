@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="card-body">
-    <kbd>http://127.0.0.1:8000/api/users</kbd>
+    <kbd>{{env("APP_URL")}}/api/users</kbd>
     <br>
     <br>
     <p>Get users information</p>
@@ -84,7 +84,7 @@
     </div>
   </div>
   <div class="card-body">
-    <kbd>http://127.0.0.1:8000/api/mahasiswa</kbd>
+    <kbd>{{env("APP_URL")}}/api/mahasiswa</kbd>
     <br>
     <br>
     <p>Retrieves all mahasiswa</p>
@@ -139,7 +139,7 @@
     </div>
   </div>
   <div class="card-body">
-    <kbd>http://127.0.0.1:8000/api/mahasiswa/1</kbd>
+    <kbd>{{env("APP_URL")}}/api/mahasiswa/1</kbd>
     <br>
     <br>
     <p>Retrieves the specified Mahasiswa</p>
