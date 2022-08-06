@@ -15,8 +15,10 @@ jobs:
         port: ${{ secrets.SSH_PORT }}
         script: |
           cd /var/www/MyWebsite
+          git merge --abort
           git pull origin main
           git status
+          php artisan migrate --force
           php artisan cache:clear
           php artisan view:clear
           php artisan route:clear
