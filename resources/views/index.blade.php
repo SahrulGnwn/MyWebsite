@@ -71,6 +71,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="{{ url("/assets/img/RestAPI.png") }}" class="card-img-top img-thumbnail porto-image" alt="REST API WITH CRUD">
+                            <div class="card-body">
+                                <h4>REST API with CRUD</h4>
+                                <p class="card-text">Aplikasi API Mahasiswa</p>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="{{route('dashboard')}}">View Demo</a></button>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

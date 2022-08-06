@@ -18,6 +18,13 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user(); 
 });
 
-//make route group with midleware auth:sanctum
-Route::get('/mahasiswa','Api\MahasiswaController@index');
-Route::get('/mahasiswa/{id}','Api\MahasiswaController@show');
+
+
+Route::group(['prefix' => 'mahasiswa', 'middleware' => 'auth:sanctum'], function () {
+    Route::get('/','Api\MahasiswaController@index');
+    Route::post('/','Api\MahasiswaController@create');
+    Route::delete('/{id}','Api\MahasiswaController@delete');
+    Route::patch('/{id}','Api\MahasiswaController@update');
+    Route::get('/{id}','Api\MahasiswaController@show');
+    
+});
