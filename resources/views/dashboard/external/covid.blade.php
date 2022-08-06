@@ -15,27 +15,73 @@
 </div><!-- /.container-fluid -->
 @endsection
 @section('content')
-<!-- Default box -->
-<div class="card">
-  <div class="card-header">
-    <h3 class="card-title">All Time </h3>
-    <div class="card-tools">
-      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-        <i class="fas fa-minus"></i>
-      </button>
-      <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-        <i class="fas fa-times"></i>
-      </button>
-    </div>
-  </div>
-  <div class="card-body">
-  {{ json_encode($data) }}
-  </div>
-  <!-- /.card-body -->
-  <div class="card-footer">
-  Footer
-  </div>
-  <!-- /.card-footer-->
-</div>
-<!-- /.card -->
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Info boxes -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box">
+              <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-plus"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Total Positif</span>
+                <span class="info-box-number">
+                  {{ number_format($data['total']['positif'])}}
+                </span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box mb-3">
+              <span class="info-box-icon bg-info elevation-1"><i class="fas fa-ambulance"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Total Dirawat</span>
+                <span class="info-box-number">{{ number_format($data['total']['dirawat'])}}</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+
+          <!-- fix for small devices only -->
+          <div class="clearfix hidden-md-up"></div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box mb-3">
+              <span class="info-box-icon bg-success elevation-1"><i class="fas fa-hand-holding-medical"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Total Sembuh</span>
+                <span class="info-box-number">{{ number_format($data['total']['sembuh'])}}</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box mb-3">
+              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-skull"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Total Meninggal Dunia</span>
+                <span class="info-box-number">{{ number_format($data['total']['meninggal'])}}</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+        <p>Last Update {{ $data['total']['lastUpdate']}}</p>
+      </div><!--/. container-fluid -->
+    </section>
+    <!-- /.content -->
 @endsection

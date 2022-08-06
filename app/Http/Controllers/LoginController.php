@@ -23,7 +23,9 @@ class LoginController extends Controller
         if(Auth::attempt($credentials))
         {
             $request->session()->regenerate();
-            return redirect()->intended('/');
+            return redirect()->route('home')->with('success', __('Login successfull!!'));
+
+            
         } else {
             $request->session()->flash('error', 'Invalid username or password');
             return redirect()->back();
