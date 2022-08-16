@@ -18,6 +18,8 @@ jobs:
           git merge --abort
           git pull origin main
           git status
+          composer install --no-dev --optimize-autoloader --no-interaction
+          npm i
           php artisan migrate --force
           php artisan cache:clear
           php artisan view:clear
