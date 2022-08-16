@@ -12,6 +12,7 @@ class LiveChatController extends Controller
     public function index()
     {
         $history = LiveChatHistory::latest()->paginate(8);
+        $history = $history->reverse();
         return view('livechat.index', ['history' => $history]);
     }
 
