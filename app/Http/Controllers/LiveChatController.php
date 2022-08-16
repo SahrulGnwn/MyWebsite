@@ -11,7 +11,7 @@ class LiveChatController extends Controller
 {
     public function index()
     {
-        $history = LiveChatHistory::paginate(8);
+        $history = LiveChatHistory::paginate(8)->orderBy('id', 'DESC');
         return view('livechat.index', ['history' => $history]);
     }
 
