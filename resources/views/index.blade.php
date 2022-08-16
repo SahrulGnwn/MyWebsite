@@ -83,6 +83,18 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="{{ url("/assets/img/LiveChat.png") }}" class="card-img-top img-thumbnail porto-image" alt="REST API WITH CRUD">
+                            <div class="card-body">
+                                <h4>Simple Live Chat</h4>
+                                <p class="card-text">Aplikasi Real-time Chat dengan Pusher</p>
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="{{route('livechat.index')}}">View Demo</a></button>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
