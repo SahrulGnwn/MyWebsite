@@ -7,5 +7,10 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="/" class="nav-link">Home</a>
       </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        @if (auth()->check())
+        <a class="nav-link" href="{{ route('logout') }}">Logout</a>
+        @endif
+      </li>
     </ul>
   </nav>
